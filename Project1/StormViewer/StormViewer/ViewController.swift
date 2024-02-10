@@ -13,6 +13,9 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "Storm Viewer"
+        navigationController?.navigationBar.prefersLargeTitles = true
+        
         let fm = FileManager.default
         let path = Bundle.main.resourcePath!
         let items = try! fm.contentsOfDirectory(atPath: path)
@@ -23,7 +26,9 @@ class ViewController: UITableViewController {
                 pictures.append(item)
             }
         }
-        print(pictures)
+        
+        // challenge 2
+        pictures.sort()
     }
 
     
@@ -40,6 +45,11 @@ class ViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let vc = storyboard?.instantiateViewController(withIdentifier: "Detail") as? DetailViewController {
             vc.selectedImage = pictures[indexPath.row]
+            
+            //challenge 3
+            vc.selectedPictureNumber = indexPath.row + 1
+            vc.totalPictures = pictures.count
+            
             navigationController?.pushViewController(vc, animated: true)
         }
     }
