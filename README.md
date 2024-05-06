@@ -15,9 +15,7 @@ Core Graphics redux |  0 / 1  | 0%
 
 ## Notes
 - This is 100 days of **Swift**. For 100 days of **SwiftUI**, look [here](https://github.com/bashubb/100-days-of-swiftUI).
-<!---
-- 9 remaining hacking with swift projects are available in a [separate repository](https://github.com/clarknt/hacking-with-swift).
--->
+
 ## Preview
 
 *Within each project are larger versions of the screenshots.*
@@ -25,9 +23,9 @@ Core Graphics redux |  0 / 1  | 0%
 Projects / Topics                                                                                                                                                            | Screenshots
 ---                                                                                                                                                                          |---
 [Project 1](https://github.com/bashubb/100-days-of-swift/tree/main/01-Project1) - *Storm Viewer* <br/>(with challenges)                                         <br/><sub> View controllers, Storyboard, FileManager                               </sub> | <img src="https://github.com/bashubb/100-days-of-swift/blob/main/01-Project1/StormViewer/StormViewer.jpeg" width="10%"><img src="https://github.com/bashubb/100-days-of-swift/blob/main/01-Project1/StormViewer/StormViewergif.gif" width="10%">|
-
-[Project 2](https://github.com/bashubb/100-days-of-swift/tree/main/02-Project2) - *Guess the Flag* <br/>(with challenges)                                         <br/><sub> UIButton, CALayer, IBAction                                             </sub> | <img src="https://github.com/bashubb/100-days-of-swift/blob/main/02-Project2/guessTheFlag1.jpeg" width="10%"><img src="https://github.com/bashubb/100-days-of-swift/blob/main/02-Project2/guessTheFlag2.jpeg" width="10%">|
+[Project 2](https://github.com/bashubb/100-days-of-swift/tree/main/02-Project2) - *Guess the Flag* <br/>(with challenges)                                         <br/><sub> UIButton, CALayer, IBAction                                             </sub> | <img src="https://github.com/bashubb/100-days-of-swift/blob/main/02-Project2/guessTheFlag1.jpeg" width="10%"><img src="https://github.com/bashubb/100-days-of-swift/blob/main/02-Project2/guessTheFlag2.jpeg" width="10%"> |
 <!---
+
 [Project 3](03-Project3) - *Social Media* <br/>(with challenges) <br/>(base: project 1)                      <br/><sub> UIBarButtonItem, UIActivityController                                   </sub> | ![screen1](03-Project3/screenshots/small/screen01.png) |
 [Milestone projects 1-3](04-Milestone-Projects1-3) - *Country Flags*                                 <br/><sub>                                                                         </sub> | ![screen1](04-Milestone-Projects1-3/screenshots/small/screen01.png) ![screen2](04-Milestone-Projects1-3/screenshots/small/screen02.png) |
 [Project 4](05-Project4) - *Easy Browser* <br/>(with challenges)                                         <br/><sub> WKWebView, Action sheets, UIToolbar, UIProgressView                     </sub> | ![screen1](05-Project4/screenshots/small/screen01.png) ![screen2](05-Project4/screenshots/small/screen02.png) |
