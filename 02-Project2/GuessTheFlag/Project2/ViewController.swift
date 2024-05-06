@@ -16,6 +16,10 @@ class ViewController: UIViewController {
     var countries = [String]()
     var score = 0
     var correctAnswer = 0
+    // challenge 2
+    var maxQuestion = 10
+    var currentQuestion = 0
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,6 +50,13 @@ class ViewController: UIViewController {
     }
 
     func askQuestion(action: UIAlertAction! = nil) {
+        currentQuestion += 1
+        
+        if currentQuestion > maxQuestion {
+            finalAlert()
+            return
+        }
+        
         countries.shuffle()
         correctAnswer = Int.random(in:0...2)
         
@@ -53,26 +64,49 @@ class ViewController: UIViewController {
         button2.setImage(UIImage(named: countries[1]), for: .normal)
         button3.setImage(UIImage(named: countries[2]), for: .normal)
         
-        title = countries[correctAnswer].uppercased()
+        //challenge 1
+        updateTitle()
     }
     
     @IBAction func buttonTapped(_ sender: UIButton) {
-        var title: String
+        var title: String//challenge 3
+        var message: String
         
         if sender.tag == correctAnswer {
             title = "Correct"
             score += 1
+            message = "Good Answer, your score is \(score)"
         } else {
             title = "Wrong"
             score -= 1
+            //challenge 3
+            message = """
+                Wrong! That's the flag of \(countries[sender.tag].uppercased())!
+            """
         }
         
-        let ac = UIAlertController(title: title, message: "You're score is \(score)", preferredStyle: .alert)
-        
+        let ac = UIAlertController(title: title, message: message, preferredStyle: .alert)
         ac.addAction(UIAlertAction(title: "Continue", style: .default, handler: askQuestion))
-        
         present(ac, animated: true)
+        
+        
     }
     
+    //challenge 1
+    func updateTitle() {
+        title = "\(countries[correctAnswer].uppercased()) - Score: [\(score)] Question: \(currentQuestion)/\(maxQuestion)"
+    }
+    
+    //challenge 2
+    func finalAlert() {
+        let finalAlert = UIAlertController(title: "End of game", message:"Your score is \(score)" , preferredStyle: .alert)
+        finalAlert.addAction(UIAlertAction(title: "Play Again", style: .default, handler: askQuestion(action:)))
+        
+        currentQuestion = 0
+        maxQuestion = 10
+        score = 0
+        
+        present(finalAlert, animated: true)
+    }
 }
 
