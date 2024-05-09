@@ -8,8 +8,8 @@ https://www.hackingwithswift.com/100
 
 Type                | Number  | Completion
 :---                |  :---:  |   :---:
-Projects            | 2 / 30 | 6%
-Challenges          | 6 / 90 | 6%
+Projects            | 3 / 30 | 10%
+Challenges          | 9 / 90 | 10%
 Milestone Projects  | 0 / 10 | 0%
 Core Graphics redux |  0 / 1  | 0%
 
@@ -24,9 +24,8 @@ Projects / Topics                                                               
 ---                                                                                                                                                                          |---
 [Project 1](https://github.com/bashubb/100-days-of-swift/tree/main/01-Project1) - *Storm Viewer* <br/>(with challenges)                                         <br/><sub> View controllers, Storyboard, FileManager                               </sub> | <img src="https://github.com/bashubb/100-days-of-swift/blob/main/01-Project1/StormViewer/StormViewer.jpeg" width="10%"><img src="https://github.com/bashubb/100-days-of-swift/blob/main/01-Project1/StormViewer/StormViewergif.gif" width="10%">|
 [Project 2](https://github.com/bashubb/100-days-of-swift/tree/main/02-Project2) - *Guess the Flag* <br/>(with challenges)                                         <br/><sub> UIButton, CALayer, IBAction                                             </sub> | <img src="https://github.com/bashubb/100-days-of-swift/blob/main/02-Project2/guessTheFlag1.jpeg" width="10%"><img src="https://github.com/bashubb/100-days-of-swift/blob/main/02-Project2/guessTheFlag2.jpeg" width="10%"> |
+[Project 3](03-Project3) - *Social Media* <br/>(with challenges) <br/>(base: project 1)                      <br/><sub> UIBarButtonItem, UIActivityController                                   </sub> |<img src="https://github.com/bashubb/100-days-of-swift/blob/main/03-Project3/ActivityControllerChallange1.jpeg" width="10%"><img src="https://github.com/bashubb/100-days-of-swift/blob/main/03-Project3/ActivityControllerChallenge2.jpeg" width="10%"><img src="https://github.com/bashubb/100-days-of-swift/blob/main/03-Project3/BarButtonChallenge.gif" width="10%"> |
 <!---
-
-[Project 3](03-Project3) - *Social Media* <br/>(with challenges) <br/>(base: project 1)                      <br/><sub> UIBarButtonItem, UIActivityController                                   </sub> | ![screen1](03-Project3/screenshots/small/screen01.png) |
 [Milestone projects 1-3](04-Milestone-Projects1-3) - *Country Flags*                                 <br/><sub>                                                                         </sub> | ![screen1](04-Milestone-Projects1-3/screenshots/small/screen01.png) ![screen2](04-Milestone-Projects1-3/screenshots/small/screen02.png) |
 [Project 4](05-Project4) - *Easy Browser* <br/>(with challenges)                                         <br/><sub> WKWebView, Action sheets, UIToolbar, UIProgressView                     </sub> | ![screen1](05-Project4/screenshots/small/screen01.png) ![screen2](05-Project4/screenshots/small/screen02.png) |
 [Project 5](06-Project5) - *Word Scramble* <br/>(with challenges)                                         <br/><sub> Reading from disk, UIAlertController, IndexPath                         </sub> | ![screen1](06-Project5/screenshots/small/screen01.png) |
